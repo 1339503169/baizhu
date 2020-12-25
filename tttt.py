@@ -77,10 +77,12 @@ a={'1':{'hot_sale':
 
 import csv
 fp='data/group_item_vote_score.csv'
-with open(fp,newline='',encoding='utf-8',mode='w') as f:
-    csv_writer=csv.writer(f)
-    csv_writer.writerow(['group','icon','op_code','vote_score'])
-    for group,iconlist in a.items():
-        for icon,item in iconlist.items():
-            for i in item:
-                csv_writer.writerow([group,icon,i[0],i[1]])
+# with open(fp,newline='',encoding='utf-8',mode='w') as f:
+#     csv_writer=csv.writer(f)
+#     csv_writer.writerow(['group','icon','op_code','vote_score'])
+#     for group,iconlist in a.items():
+#         for icon,item in iconlist.items():
+#             for i in item:
+#                 csv_writer.writerow([group,icon,i[0],i[1]])
+
+# smskssksksksk
